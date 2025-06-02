@@ -151,7 +151,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 Data/
-Data2/
+Data 2/
 val2017/
 Output/
 yolov8_training
