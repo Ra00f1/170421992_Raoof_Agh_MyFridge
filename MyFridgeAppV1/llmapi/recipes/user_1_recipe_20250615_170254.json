@@ -1,0 +1,10 @@
+{
+  "malzemeler" : null,
+  "yapilis" : null,
+  "ipucular" : null,
+  "yemek_adi" : null,
+  "kisi_sayisi" : 0,
+  "hazirlik_suresi_dk" : 0,
+  "pisirme_suresi_dk" : 0,
+  "eksik_malzemeler_aciklama" : null
+}

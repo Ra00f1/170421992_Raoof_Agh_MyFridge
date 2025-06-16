@@ -1,0 +1,10 @@
+{
+  "yemek_adi" : null,
+  "kisi_sayisi" : 0,
+  "hazirlik_suresi_dk" : 0,
+  "pisirme_suresi_dk" : 0,
+  "malzemeler" : [ "Tavuk Göğsü - 200 gr - eksik=false - istegeBagli=false", "Pirinç - 1 su bardağı - eksik=false - istegeBagli=false" ],
+  "yapilis" : [ "1. Tavuk göğsünü küçük küpler halinde doğrayın.", "2. Soğanı doğrayın ve yağda kavurun.", "3. Tavukları ekleyin, pembeleşinceye kadar pişirin.", "4. Pirinci ekleyip kavurun.", "5. Domatesi, baharatları ve sıcak suyu ekleyip pişirin.", "6. Maydanozla servis edin." ],
+  "ipucular" : [ "Tavukları marine edebilirsiniz.", "Pirincin türüne göre su miktarını ayarlayın." ],
+  "eksik_malzemeler_aciklama" : null
+}

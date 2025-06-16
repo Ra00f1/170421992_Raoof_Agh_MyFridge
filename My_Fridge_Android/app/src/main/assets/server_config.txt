@@ -1,0 +1,26 @@
+# Server Configuration File
+# Line 1: OCR Server (image upload and processing) - MainService
+192.168.1.100:5000
+# Line 2: Auth Server (user authentication) - AuthService
+192.168.1.100:8084/api
+# Line 3: Fridge Server (fridge items management) - FridgeService
+192.168.1.100:8083/api
+# Line 4: Recipe Assistant Server (recipe suggestions) - RecipeAssistantService
+192.168.1.100:5001
+# Line 5: Delete API Server (product deletion) - DeleteApiService
+192.168.1.100:8080/api
+# Line 6: Reduce/Add Amount API Server (amount operations) - ReduceAmountApiService
+192.168.1.100:8082/api
+# Line 7: Manual Ingredient Addition Server - ManualIngredientService
+192.168.1.100:5000
+
+# HOW TO CHANGE SERVER IPs:
+# To change the IP for any service, simply modify the corresponding line above
+# Example: To change all servers to a different IP (e.g., 10.0.0.100):
+# Line 1: 10.0.0.100:5000
+# Line 2: 10.0.0.100:8084/api
+# Line 3: 10.0.0.100:8083/api
+# Line 4: 10.0.0.100:5001
+# Line 5: 10.0.0.100:8080/api
+# Line 6: 10.0.0.100:8082/api
+# Line 7: 10.0.0.100:5000

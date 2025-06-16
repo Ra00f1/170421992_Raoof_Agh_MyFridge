@@ -1,0 +1,12 @@
+select u.id,u.amount,p.name as product_name,p.price,c.name as category_name from user_fridge as u left join product as p on u.product_id=p.id left join category as c on p.category_id=c.id;
+
+CREATE VIEW user_fridge_details AS
+SELECT 
+  u.id,
+  u.amount,
+  p.name AS product_name,
+  p.price,
+  c.name AS category_name
+FROM user_fridge AS u
+LEFT JOIN product AS p ON u.product_id = p.id
+LEFT JOIN category AS c ON p.category_id = c.id;
